@@ -1,0 +1,19 @@
+GITHUB SETUP — janani-portfolio
+
+1. Create an empty GitHub repository named: janani-portfolio
+   Do not initialize it with a README, license or .gitignore (the project already contains these files).
+
+2. Configure Git identity once on your computer, using your real name and an email verified on GitHub:
+   git config --global user.name "Your Name"
+   git config --global user.email "your-verified-github-email@example.com"
+
+3. Windows: double-click setup-git.bat
+   macOS/Linux/Git Bash: run ./setup-git.sh
+
+4. Connect this local repository to the empty GitHub repository:
+   git remote add origin https://github.com/YOUR-USERNAME/janani-portfolio.git
+
+5. Push:
+   git push -u origin main
+
+The setup script makes separate commits as project files are added in logical stages. These commits reflect actual project files, not fabricated dates or empty commits. Review and test the project, and make further commits only for real improvements.
